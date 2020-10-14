@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20000s linear;
+  }
+}
+
+.menu{
+  padding-left:10px;
+  padding-right: 10px;
+  width: max-content;
+  border-style: solid;
+  margin: auto;
+}
+.logo_position{
+  width: max-content;
+  height: max-content;
+  padding-right: 90%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.talbe-view{
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+.table
+{
+padding: 100px;
+}
+
+.students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+.menuitem
+{
+padding:5px;
+}
+.table-content
+{
+  max-width: max-content;
+  padding-right: 30%;
+  padding-left: 30%;
+}
+#students td, #students th {
+  border: 1px solid #ddd;
+  padding: 40px;
+}
+
+#students tr:nth-child(even){background-color: #f2f2f2;}
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+.Edit{
+padding-right: 84%;
+padding-left: 2%;
+}
+
+.label-name
+{
+  padding-right: 15%;
+}
+.label-username
+{
+  padding-right: 7%;
+}
+.label-email
+{
+  padding-right: 16%;
+}
+.close{
+width: 10%;
+padding-left: 2%;
+padding-right: 2%;
+background-color: red;
+}
+.edit-header{
+text-align: left;
+  border-style: solid;
+  background-color: #4CAF50;
+}
+
+.edit-footer{
+  text-align: right;
+  border-style: solid;
+}
+.MyMenuButton
+{
+line-height: 0.5;
+}
+MyMenuButton-menu
+{
+  border-style: solid;
+}
+
+.modal_content{
+  background-color: white;
+  border-style: solid;
+  width:50%;
+}
+.modal
+{
+  width:39%;
+  position:fixed;
+  transform: 'translate(-50%,-50%)';
+  z-index: '999';
+  display: flex;
+  top:50%;
+  left:50%;
+}
